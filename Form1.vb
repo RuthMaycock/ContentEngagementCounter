@@ -9,8 +9,7 @@
     Dim output As String
 
     Sub Restart()
-        'Having problems with the line below, error reads: System.InvalidCastException: 'Conversion from string "Likes: " to type 'Double' is not valid.'
-        output = "Likes: " + Likes + "Comments: " + Comment + "Comment Likes: " + CommentLike + "Shares: " + Share + "Rewatches: " + Rewatch + "Skips: " + Skip
+        output = "Likes: " & Likes & " Comments: " & Comment & " Comment Likes: " & CommentLike & " Shares: " & Share & " Rewatches: " & Rewatch & " Skips: " & Skip
         Console.WriteLine(output)
         Likes = 0
         Comment = 0
