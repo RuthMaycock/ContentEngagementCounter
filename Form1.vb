@@ -1,5 +1,6 @@
 ﻿Public Class Form1
 
+    Dim VideoTotal = 0
     Dim Likes = 0
     Dim Comment = 0
     Dim CommentLike = 0
@@ -9,7 +10,7 @@
     Dim output As String
 
     Sub Restart()
-        output = "Likes: " & Likes & " Comments: " & Comment & " Comment Likes: " & CommentLike & " Shares: " & Share & " Rewatches: " & Rewatch & " Skips: " & Skip
+        output = "Videos: " & VideoTotal & " Likes: " & Likes & " Comments: " & Comment & " Comment Likes: " & CommentLike & " Shares: " & Share & " Rewatches: " & Rewatch & " Skips: " & Skip
         Console.WriteLine(output)
         Likes = 0
         Comment = 0
@@ -45,4 +46,13 @@
     Private Sub Restart_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Restart()
     End Sub
+
+    Private Sub NewVideo_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        VideoTotal += 1
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
 End Class
