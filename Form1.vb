@@ -12,6 +12,7 @@
     Sub Restart()
         output = "Videos: " & VideoTotal & " Likes: " & Likes & " Comments: " & Comment & " Comment Likes: " & CommentLike & " Shares: " & Share & " Rewatches: " & Rewatch & " Skips: " & Skip
         Console.WriteLine(output)
+        VideoTotal = 0
         Likes = 0
         Comment = 0
         CommentLike = 0
