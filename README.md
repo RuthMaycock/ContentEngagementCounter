@@ -9,3 +9,10 @@ There are no further dependecies.
 Application Type: Console Application
 
 Startup Object: Form1.vb
+
+#### Interface
+![image](https://user-images.githubusercontent.com/48021683/163010925-cbf9f3f2-c493-46e3-b18b-261e1b6ee359.png)
+
+#### Example Output
+![image](https://user-images.githubusercontent.com/48021683/163010946-876f2773-844a-45f2-9209-c9deae46bdc6.png)
+
